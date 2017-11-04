@@ -1,0 +1,79 @@
+/*Base style*/
+* {
+	box-sizing: border-box;
+	font-family: 'Open Sans','Trebuchet MS','Arial',sans-serif;
+}
+
+html,body{
+	padding:  20px;
+}
+.mainSection{
+	position: relative;
+	width: 100%;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.menuItem{
+	display: inline-block;
+	background-color: #B0B0B0;
+	border-style: solid;
+	overflow: hidden;
+	float: left;
+	
+}
+.textItem{
+	padding: 20px;
+}
+
+.itemName{
+	font-size: 1.25em;
+	font-weight: bold;
+	border-style: solid;
+	border-top-style: hidden;
+	border-right-style: hidden; 
+	width: 35%;
+	position: relative;
+	right: 0%;
+	text-align: center;
+	padding: 2%;
+	display: inline-block;
+}
+.name-1{
+	background-color: #c49483;
+}
+.name-2{
+	background-color: #af4e28;
+}
+.name-3{
+	background-color: #dbd67a;
+}
+
+
+/*For mobile*/
+@media only screen and (max-width: 767px){
+	.col-s-1{
+		width: 100%;
+	}
+}
+
+
+/*For tablet*/
+@media only screen and (min-width:768px) {
+	.col-m-2{
+		width: 50%;
+	}
+	.col-m-1{
+		width: 100%
+	}
+}
+
+/*For desktop*/
+@media only screen and (min-width: 992px){
+	.col-l-3{
+		width: 33.33%;
+	}
+}
