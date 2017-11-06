@@ -5,7 +5,7 @@
 }
 
 html,body{
-	padding:  20px;
+	padding:  10px;
 }
 .mainSection{
 	position: relative;
@@ -13,6 +13,7 @@ html,body{
 }
 
 h1{
+	font-size: 1.75em;
 	text-align: center;
 	margin-bottom: 20px;
 }
@@ -23,6 +24,8 @@ h1{
 	border-style: solid;
 	overflow: hidden;
 	float: left;
+	margin-bottom: 5px;
+	margin-top: 5px;
 	
 }
 .textItem{
@@ -36,8 +39,8 @@ h1{
 	border-top-style: hidden;
 	border-right-style: hidden; 
 	width: 35%;
-	position: relative;
-	right: 0%;
+	position: absolute;
+	right: 0px;
 	text-align: center;
 	padding: 2%;
 	display: inline-block;
@@ -50,6 +53,11 @@ h1{
 }
 .name-3{
 	background-color: #dbd67a;
+}
+.nameContainer{
+	width: 100%;
+	height: 40px;
+	position: relative;
 }
 
 
